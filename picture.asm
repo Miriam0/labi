@@ -16,7 +16,12 @@ out r2,p6
 mov 1FF8,r3
 out r3,p7
 
+mov 1, r1
 show:
+system A
+system B
+system B
+system A
 system 6
 jnz show
 stop
